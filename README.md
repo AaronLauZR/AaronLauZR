@@ -15,7 +15,7 @@ git push origin "branch name"             // Push changes files to created branc
 Go to Github <br />
 Click "New Pull Request" <br />
 Click "Create Pull Request" <br />
-
+<br />
 4) Merge with Master Files <br />
 Click "Merge Pull Request" <br />
 Click "Confirm" <br />
