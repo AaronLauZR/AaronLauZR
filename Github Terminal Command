@@ -1,0 +1,26 @@
+Optional:
+- cd C:\...                               // Switch to destination path. 
+- git status                              // Check tracked and untracked project files and the changes. 
+
+Steps: 
+1) Push the Project to Github
+git checkout -b "branch name"             // Create new branch and switch the path to created branch. 
+git add .                                 // Select all files in the project.
+git commit -m "message"                   // Add command into changed files. 
+git push origin "branch name"             // Push changes files to created branch in Github.
+
+2) Create Pull Request in Github 
+Go to Github 
+Click "New Pull Request" 
+Click "Create Pull Request" 
+
+3) Merge with Master Files 
+Click "Merge Pull Request" 
+Click "Confirm" 
+Click "Delete Branch" 
+
+4) Pull the Merged Files from Github 
+Back to Software 
+git checkout master                        // Switch back to master branch. 
+git pull                                   // Pull the merged files from Github to local. 
+git branch -D "branch name"                // Delele created branch in local. 
