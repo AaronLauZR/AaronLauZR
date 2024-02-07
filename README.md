@@ -11,17 +11,18 @@ git add .                                 // Select all files in the project. <b
 git commit -m "message"                   // Add command into changed files. <br />
 git push origin "branch name"             // Push changes files to created branch in Github. <br />
 <br />
-3) Create Pull Request in Github <br />
+2) Create Pull Request in Github <br />
 Go to Github <br />
 Click "New Pull Request" <br />
 Click "Create Pull Request" <br />
 <br />
-4) Merge with Master Files <br />
+3) Merge with Master Files <br />
 Click "Merge Pull Request" <br />
 Click "Confirm" <br />
 Click "Delete Branch" <br />
 <br />
-6) Pull the Merged Files from Github <br />
+4) Pull the Merged Files from Github <br />
+Back to Software <br />
 git checkout master                        // Switch back to master branch. <br />
 git pull                                   // Pull the merged files from Github to local. <br />
 git branch -D "branch name"                // Delele created branch in local. <br />
