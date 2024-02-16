@@ -15,12 +15,12 @@ Click "New Pull Request"
 Click "Create Pull Request" 
 
 3) Merge with Master Files 
-Click "Merge Pull Request" 
-Click "Confirm" 
-Click "Delete Branch" 
+Click "Merge Pull Request"                 // Merge master file with current changes. 
+Click "Confirm"                            
+Click "Delete Branch"                      // To avoid duplicate branch name.
 
 4) Pull the Merged Files from Github 
 Back to Software 
 git checkout master                        // Switch back to master branch. 
 git pull                                   // Pull the merged files from Github to local. 
-git branch -D "branch name"                // Delele created branch in local. 
+git branch -D "branch name"                // Delele created branch in local to avoid duplicate branch name. 
