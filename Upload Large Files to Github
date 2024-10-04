@@ -5,11 +5,11 @@ Steps:
 git lfs install
 
 2) Locate Large File
-cd C:\Users\...                           //Locate local github repository folder.
-git lfs track "*.bak"                     //Track the type of large file, for example:".bak", ".h5". * is for any filename.
+cd C:\Users\...                           // Locate local github repository folder.
+git lfs track "*.bak"                     // Track the type of large file, for example:".bak", ".h5". * is for any filename.
 git lfs push --all origin main 
 git add .
 
 3) Upload to Github
-git commit -m "message"                   //Add command on the changed files.
-git push -u origin master                 //Push changes files to Github.
+git commit -m "message"                   // Add command on the changed files.
+git push -u origin master                 // Push changes files to Github.
