@@ -1,4 +1,4 @@
-# Github Terminal Command
+# Push/Pull Terminal Command
 > [!TIP]
 > <span title="Check tracked or untracked project files and the changes.">git status</span> 
 
@@ -18,24 +18,29 @@
 3) Merge with Master Files
     - <span title="Merge master file with current changes.">Click "Merge Pull Request"</span>
     - Click "Confirm"                            
-    - <span title="Optional: Delete to avoid duplicate branch name, or can choose to save for backup purpose.">Click "Delete Branch"</span>
+    - <span title="Optional: Delete(github side) to avoid duplicate branch name, or can choose to save for backup purpose.">Click "Delete Branch"</span>
 
 4) Pull the Merged Files from Github 
     - Back to Software 
     - <span title="Switch back to main branch, default main branch usually named 'Guideline'.">git checkout master</span>
     - <span title="Pull the merged files from Github to local.">git pull </span>
-    - <span title="Optional: Delete to avoid duplicate branch name, or can choose to save for backup purpose.">git branch -D "branch name" </span>                            
+    - <span title="Optional: Delete(client side) to avoid duplicate branch name, or can choose to save for backup purpose.">git branch -D "branch name" </span>                            
 
 
 # Upload Large Files 
+> [!NOTE]
+>  Complete Below Steps in Command Prompt
+
+## Steps 
 1) Install Upload Large File Github Command
+    - git lfs install
+
 2) Locate Large File
+    - <span title="Locate local github repository folder.">cd C:\\Users\\...</span>
+    - <span title="Track the type of large file, for example:'.bak', '.h5'. * is for any filename.">git lfs track '*.bak'</span>
+    - git lfs push --all origin main</span>          
+    - <span title="Select all files in the project folder.">git add .</span>
+
 3) Upload to Github
-
-Here is a simple footnote[^1].
-
-A footnote can also have multiple lines[^2].
-
-[^1]: My reference.
-[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
-  This is a second line.
+    - <span title="Add command on the changed files.">git commit -m "message"</span>
+    - <span title="Push changes files to Github.">git push -u origin master </span>
