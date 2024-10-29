@@ -1,6 +1,6 @@
 # Github Terminal Command
 > [!TIP]
-> <span title="Switch to destination path.">cd C:\...</span> 
+> <span title="Switch to destination path.">cd C:\\...</span> <br> 
 > <span title="Check tracked or untracked project files and the changes.">git status</span> 
 
 
