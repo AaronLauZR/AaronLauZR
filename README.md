@@ -1,9 +1,12 @@
 # Github Terminal Command
+> [!TIP]
+> Helpful advice for doing things better or more easily.
 ## Optional
 - cd C:\\...
 > Switch to destination path. 
 - git status
 > Check tracked or untracked project files and the changes. 
+<span title="hi is a hi">hi</span>
 
 ## Steps: 
 1. Push the Project to Github
