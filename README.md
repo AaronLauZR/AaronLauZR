@@ -4,8 +4,8 @@
 
 ## Steps
 1. Push the Project to Github
-    -   <span title="Locate to destination file path.">cd C:\\...\\...\\...</span> 
-    -   <span title="Create new branch and switch targeted path to created branch.">git checkout -b "branch name"</span>
+    - <span title="Locate to destination file path.">cd C:\\...\\...\\...</span> 
+    - <span title="Create new branch and switch targeted path to created branch.">git checkout -b "branch name"</span>
     - <span title="Select all files in the project folder.">git add . </span>
     - <span title="Add command on the changed files.">git commit -m "message"</span>  
     - <span title="Push changes files to created branch in Github.">git push origin "branch name"</span>
