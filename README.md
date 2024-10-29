@@ -1,18 +1,20 @@
 # Github Terminal Command
-Optional:
+## Optional:
 - cd C:\...
 > Switch to destination path. 
-- git status                              // Check tracked or untracked project files and the changes. 
+- git status
+> Check tracked or untracked project files and the changes. 
 
-Steps: 
+## Steps: 
 1. Push the Project to Github
 - git checkout -b "branch name"
 > Create new branch and switch targeted path to created branch. 
--   
-             // 
-git add .                                 // Select all files in the project folder.
-git commit -m "message"                   // Add command on the changed files.
-git push origin "branch name"             // Push changes files to created branch in Github.
+- git add .   
+> Select all files in the project folder.
+- git commit -m "message"
+> Add command on the changed files.
+- git push origin "branch name"
+> Push changes files to created branch in Github.
 
 2) Create Pull Request in Github 
 Go to Github 
