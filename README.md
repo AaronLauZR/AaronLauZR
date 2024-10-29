@@ -4,23 +4,21 @@
 
 ## Steps
 1. Push the Project to Github
-- <span title="Locate to destination file path.">cd C:\\...\\...\\...</span> 
-- <span title="Create new branch and switch targeted path to created branch.">git checkout -b "branch name"</span>
-- <span title="Select all files in the project folder.">git add . </span>
-- <span title="Add command on the changed files.">git commit -m "message"</span>  
-- <span title="Push changes files to created branch in Github.">git push origin "branch name"</span>
+  - <span title="Locate to destination file path.">cd C:\\...\\...\\...</span> 
+  - <span title="Create new branch and switch targeted path to created branch.">git checkout -b "branch name"</span>
+  - <span title="Select all files in the project folder.">git add . </span>
+  - <span title="Add command on the changed files.">git commit -m "message"</span>  
+  - <span title="Push changes files to created branch in Github.">git push origin "branch name"</span>
 
 2) Create Pull Request in Github 
-- Go to Github 
-- Click "New Pull Request" 
-- Click "Create Pull Request" 
+  - Go to Github 
+  - Click "New Pull Request" 
+  - Click "Create Pull Request" 
 
-3) Merge with Master Files 
-- Click "Merge Pull Request"
-> Merge master file with current changes. 
-- Click "Confirm"                            
-- Click "Delete Branch"
-> To avoid duplicate branch names, can choose to save for backup purposes.
+3) Merge with Master Files
+  - <span title="Merge master file with current changes.">Click "Merge Pull Request"</span>
+  - Click "Confirm"                            
+  - <span title="Optional: Delete to avoid duplicate branch name, or can choose to save for backup purpose.">Click "Delete Branch"</span>
 
 4) Pull the Merged Files from Github 
 - Back to Software 
